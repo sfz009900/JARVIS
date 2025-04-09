@@ -4,84 +4,14 @@ A modular Streamlit-based UI for the J.A.R.V.I.S. AI Assistant.
 
 ## 🚀 Features
 
-- 💬 Chat interface with AI assistant
-- 📸 Image upload (file, camera, clipboard)
-- 📱 Responsive design for mobile and desktop
-- 🔄 Session management
-- 📜 Chat history browsing
-- 🎨 Light/dark theme support
-- 📊 Device-specific optimizations
+- 💬 永久记忆,可以进行睡觉整理相似记忆,短睡和长睡
+- 📸 支持导入微信聊天记录作为记忆
+- 📱 支持发送图片,比如发只柯基给它问它认识是谁不,它会识别为我家狗图图
+- 🔄 支持生成图片,比如你问它我家图图长什么样子,它会给你一张图片
+- 📜 支持命令执行,比如查看一下我电脑的配置
+- 🎨 支持网络搜索,比如你去网路搜索下XXXX然后想象一下它长什么样子,它就会先网络搜索然后给你生成图片
+- 📊 支持发送微信,比如你叫他查看一下今天的新闻,然后整理下发给微信好友XXXX
 
-## 📋 Project Structure
-
-```
-jarvis_ui/
-├── app.py                # Main application entry point
-├── config.py             # Configuration and constants
-├── api/
-│   ├── __init__.py
-│   └── client.py         # API communication functions
-├── components/
-│   ├── __init__.py
-│   ├── sidebar.py        # Sidebar UI components
-│   ├── chat.py           # Chat UI components
-│   ├── history.py        # Chat history components
-│   └── image_handler.py  # Image upload and display
-├── utils/
-│   ├── __init__.py
-│   ├── state.py          # Session state management
-│   ├── device.py         # Device detection utilities
-│   └── image_utils.py    # Image processing utilities
-└── static/
-    └── styles.css        # CSS styles
-```
-
-## 🛠️ Setup
-
-1. Install dependencies:
-
-```bash
-pip install streamlit pillow requests
-```
-
-2. Set up the backend API server (see separate repository).
-
-3. Run the application:
-
-```bash
-streamlit run app.py
-```
-
-Or alternatively:
-
-```bash
-python -m streamlit run app.py
-```
-
-## ⚙️ Configuration
-
-Edit `jarvis_ui/config.py` to configure:
-
-- API URL
-- Page title and icon
-- UI settings
-- Avatar URLs
-- Version information
-
-## 📱 Device Support
-
-The application is optimized for both desktop and mobile devices with:
-
-- Responsive layout
-- Mobile-friendly image upload
-- Touch-optimized interactions
-- Device-specific UI adjustments
-
-## 📝 Notes
-
-- The backend API server must be running at the configured URL
-- For clipboard paste functionality, use desktop browsers
-- Camera functionality works best on mobile devices
 
 ## 📄 License
 
