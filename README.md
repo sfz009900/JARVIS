@@ -2,7 +2,7 @@
 
 A modular Streamlit-based UI for the J.A.R.V.I.S. AI Assistant.
 
-##自己拿来当玩具完的,有喜欢的一起玩吧:)
+## 自己拿来当玩具完的,有喜欢的一起玩吧:)
 
 ## 🚀 Features
 
@@ -14,7 +14,7 @@ A modular Streamlit-based UI for the J.A.R.V.I.S. AI Assistant.
 - 🎨 支持网络搜索,比如你去查一下最新的XXXX信息然后想象一下它长什么样子,它就会先网络搜索然后给你生成图片
 - 📊 支持发送微信,比如你叫他查看一下今天的新闻,然后整理下发给微信好友XXXX
 
-##配置说明(喝了点酒的暂时先简单介绍下配置)
+## 配置说明(喝了点酒的暂时先简单介绍下配置)
 1: 把config.json.example改为config.json替换一下ollama的"gemma2:27b"服务器地址,本地也行,向量化使用的是"nomic-embed-text:latest"这个也是本地的.
 2: 把google.ini.example和openrouter.example后面的.example去掉放到目录keyconfig下,然后放上对应的key,这个是轮询的,请求中KEY失效就自动换下一个.
 3: 之前使用过gemini 2.0 pro后面换成网页版无限的grok3后面失效了,现在主模型暂时定为openrouter的openrouter/quasar-alpha了.
