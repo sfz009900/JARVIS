@@ -14,12 +14,23 @@ A modular Streamlit-based UI for the J.A.R.V.I.S. AI Assistant.
 - 🎨 支持网络搜索,比如你去查一下最新的XXXX信息然后想象一下它长什么样子,它就会先网络搜索然后给你生成图片
 - 📊 支持发送微信,比如你叫他查看一下今天的新闻,然后整理下发给微信好友XXXX
 
-## 使用说明
+## 运行说明
+1: 命令行版本直接python chatbot.py就行了.
+
+2:WEB版本直接streamlit run web_ui.py.
+
+## 命令说明
 1: dbback(备份chromadb数据库到dbback目录的当天日期目录下).
+
 2:savelog(保存chromadb数据库原文到test.txt文件方便调试记忆).
+
 3:sleep_short(短期睡眠,整理和合并短期记忆).
+
 4:sleep(长期睡眠,整理和合并长期记忆).
+
 5: @web(明确知道搜索网络).
+
+
 
 ## 配置说明(喝了点酒的暂时先简单介绍下配置)
 1: 把config.json.example改为config.json替换一下ollama的"gemma2:27b"服务器地址,本地也行,向量化使用的是"nomic-embed-text:latest"这个也是本地的.
