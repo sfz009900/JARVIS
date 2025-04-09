@@ -1,0 +1,48 @@
+{
+  "model": "gemma2:27b",
+  "base_url": "https://ollama.xxxxxxxxxxx.com",
+  "memory_dir": "chat_memories",
+  "gemini_api_key": "xxxxxxxxxxxxxxxxxxxxx",
+  "memory_settings": {
+    "type": "chroma",
+    "distance_metric": "cosine",
+    "cache_size": 100,
+    "embedding_model": "nomic-embed-text:latest",
+    "personality": {
+      "name": "J.A.R.V.I.S.",
+      "style": "professional",
+      "humor_level": 0.3,
+      "formality_level": 0.8
+    },
+    "context_window": 2000,
+    "memory_retention": {
+      "short_term": 100,
+      "long_term": 1000,
+      "permanent": ["user_preferences", "critical_information", "security_protocols"]
+    }
+  },
+  "max_token_limit": 100,
+  "summary_threshold": 50,
+  "rate_limit": {
+    "requests_per_minute": 20,
+    "tokens_per_minute": 4000
+  },
+  "security": {
+    "encryption_enabled": true,
+    "access_levels": ["standard", "elevated", "admin"],
+    "sensitive_data_handling": "encrypted"
+  },
+  "response_settings": {
+    "temperature": 0.7,
+    "style": "jarvis",
+    "proactive_suggestions": true,
+    "context_awareness": true
+  },
+  "image_generation": {
+    "enabled": true,
+    "model": "gemini",
+    "max_images_per_day": 50,
+    "default_style": "realistic"
+  },
+  "verbose": true
+} 
