@@ -3,7 +3,6 @@ chat_memories/
 *.log
 __pycache/
 *.pyc
-*.txt
 dbback/
 keyconfig/*.ini
 generated_images/
