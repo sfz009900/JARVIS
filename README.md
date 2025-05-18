@@ -44,6 +44,7 @@ A modular Streamlit-based UI for the J.A.R.V.I.S. AI Assistant.
 ## 发送微信说明,比如"介绍下我家狗狗图图的大概情况发给微信好友SoSo"
 
 1: 当时随便找个的https://github.com/LTEnjoy/easyChat来大概改了下我一起放到了easyChat目录下
+
 2: 直接运行easyChat目录下的python wechat_controller.py就行了
 
 
