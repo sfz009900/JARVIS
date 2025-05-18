@@ -41,6 +41,12 @@ A modular Streamlit-based UI for the J.A.R.V.I.S. AI Assistant.
 
 4: 比如导出的[妈妈]的JSON文件是mama.json,然后在贾维斯里使用@file_import_chat D:\backwechathistory\data\mama.json就能导入记忆了
 
+## 发送微信说明,比如"介绍下我家狗狗图图的大概情况发给微信好友SoSo"
+
+1: 当时随便找个的https://github.com/LTEnjoy/easyChat来大概改了下我一起放到了easyChat目录下
+2: 直接运行easyChat目录下的python wechat_controller.py就行了
+
+
 ## 配置说明(喝了点酒的暂时先简单介绍下配置)
 1: 把config.json.example改为config.json替换一下ollama的"gemma2:27b"服务器地址,本地也行,向量化使用的是"nomic-embed-text:latest"这个也是本地的.
 
