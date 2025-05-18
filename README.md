@@ -30,11 +30,15 @@ A modular Streamlit-based UI for the J.A.R.V.I.S. AI Assistant.
 
 5: @web(明确知道搜索网络).
 
-##导出微信聊天记录说明
+## 导出微信聊天记录说明
 1：使用的这个项目https://github.com/xaoyaoo/PyWxDump
+
 2: 运行它的wxdump.exe后,使用我弄的一个backwechathistory\getwechathis.py脚本导出聊天记录的JSON
+
 3: 因为我是方便自己玩是弄成的导出指定联系人的聊天记录,先配置下backwechathistory\config.ini,比如[妈妈]就是要喂给贾维斯时贾维斯对这个人的称呼,wxid用PyWxDump去找一下,lastnum最开始设置为0,比如这次导出[妈妈]所有100条消息,它会自动更新lastnum=100,下次就会从100开始导出所有最新的消息
+
 ![image](https://github.com/user-attachments/assets/8e9d6a56-4320-426e-b84e-b8c4f9a87d9c)
+
 4: 比如导出的[妈妈]的JSON文件是mama.json,然后在贾维斯里使用@file_import_chat D:\backwechathistory\data\mama.json就能导入记忆了
 
 ## 配置说明(喝了点酒的暂时先简单介绍下配置)
