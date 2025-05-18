@@ -45,7 +45,9 @@ A modular Streamlit-based UI for the J.A.R.V.I.S. AI Assistant.
 
 1: 当时随便找个的https://github.com/LTEnjoy/easyChat来大概改了下我一起放到了easyChat目录下
 
-2: 直接运行easyChat目录下的python wechat_controller.py就行了
+2: 自己要在PC上先打开PC微信作为发送源比如楼下图里的"测试1号"
+
+3: 直接运行easyChat目录下的python wechat_controller.py就行了
 
 
 ## 配置说明(喝了点酒的暂时先简单介绍下配置)
