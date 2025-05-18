@@ -70,10 +70,12 @@ A modular Streamlit-based UI for the J.A.R.V.I.S. AI Assistant.
 ![4de7e38962606c0cdf0458853e79b4d](https://github.com/user-attachments/assets/324e40d4-df2f-47a3-a851-aff94eb8b4c6)
 
 
-![809feb6bed445b8954da80582d74454](https://github.com/user-attachments/assets/0dbd7f2c-de43-47e9-bd4b-740655d30de6)
+![image](https://github.com/user-attachments/assets/48c8c6d7-c02d-4b29-9980-0daee74d2d75)
 
 
-![17d81a585ed57188309d1e1ee24046b](https://github.com/user-attachments/assets/82ce396f-8337-44f7-85dc-30bb5a07ee3e)
+
+![image](https://github.com/user-attachments/assets/25a093d8-209c-4119-a4bf-a8c396de36e3)
+
 
 ## 📄 License
 
